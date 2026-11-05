@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Cafesando</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="menu-lateral">
+        <h1>Cafesando</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="extracao.html">Métodos de Extração</a></li>
+                <li><a href="sensorial.html">Notas Sensoriais</a></li>
+                <li><a href="especies.html">Universo do Café</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+
+        <section class="contato-container">
+
+            <div class="contato-introducao">
+                <span class="contato-categoria">
+                    CAFESANDO · CONTATO
+                </span>
+
+                <h2>Vamos conversar sobre café?</h2>
+
+                <p>
+                    Tem alguma dúvida, sugestão ou quer
+                    compartilhar uma experiência?
+                    Envie sua mensagem!
+                </p>
+            </div>
+
+            <form class="formulario-contato">
+
+                <div class="campo-formulario">
+                    <label for="nome">Seu nome</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite seu nome"
+                        required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="email">Seu e-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="exemplo@email.com"
+                        required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="assunto">Assunto</label>
+
+                    <select id="assunto" name="assunto" required>
+                        <option value="">
+                            Selecione o assunto
+                        </option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="mensagem">Mensagem</label>
+
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="6"
+                        placeholder="Escreva sua mensagem..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="botao-enviar">
+                    Enviar mensagem
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Blog Cafesando - Pensando Café.
+            Todos os direitos reservados.
+        </p>
+    </footer>
+
+</body>
+</html>
